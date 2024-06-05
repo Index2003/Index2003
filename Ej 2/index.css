@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
 }
-
+body{
+    background-color: rgb(243, 221, 224);
+}
 /*--------------- barra de navegacion ----------------*/
 header {
     display: flex;
@@ -26,7 +28,8 @@ header {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    color: black;
-    
+    color: rgb(151, 151, 151);
+    text-decoration: none
+    ;
 
 }
