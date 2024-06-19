@@ -4,17 +4,22 @@
     box-sizing: border-box;
     /* border: solid 1px blue; */
 }
-body{
-    background-color: rgb(243, 221, 224);
+body {
+    background-color: rgb(209, 205, 205);
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 /*--------------- barra de navegacion ----------------*/
 header {
+    width: 1200px;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(252, 185, 185);
+    background-color: rgb(74, 96, 196);
     padding: 5px;
-    border-radius: 4px;
+    border-radius: 8px;
     gap: 400px;
 
 
@@ -24,12 +29,70 @@ header {
     justify-content: space-between;
     gap: 20px;
 }
-.navbar-list  a{
+
+.navbar-list a {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    color: rgb(151, 151, 151);
-    text-decoration: none
-    ;
+    color: rgb(49, 43, 43);
+    text-decoration: none;
 
+}
+section {
+    background-color: rgb(216, 216, 216);
+    max-width: 1200px;
+    display: flex;
+    gap: 200px;
+    padding: 10px;
+    border-radius: 4px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    ;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.slogan h1 {
+    color: rgb(37, 37, 37);
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.slogan h2 {
+    font-size: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(26, 26, 26);
+    font-weight: 100;
+}
+
+.slogan a button {
+    padding: 10px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+
+}
+
+.info {
+    max-width: 500px;
+    margin: auto;
+}
+
+.info p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(216, 216, 216);
+    padding: 30px;
+    border-radius: 10px;
 }
